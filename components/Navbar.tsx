@@ -32,8 +32,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="items-center hidden lg:flex">
-          <MainButton type="secondary" text="Login" className="mr-5" />
-          <MainButton type="primary" text="Sign up" />
+          <MainButton uiType="secondary" text="Login" className="mr-5" />
+          <MainButton uiType="primary" text="Sign up" />
         </div>
       </div>
     </div>

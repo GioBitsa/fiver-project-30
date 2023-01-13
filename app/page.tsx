@@ -54,7 +54,7 @@ const page = () => {
             uiType="primary"
             text="learn more about"
             endIcon
-            className="uppercase ml-auto mr-auto block"
+            className="uppercase ml-auto mr-auto block relative z-10"
           />
         </div>
         <CircleContainer

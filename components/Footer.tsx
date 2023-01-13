@@ -105,7 +105,7 @@ const Footer = () => {
               type="email"
               className="h-[44px] text-sm text-gray-600 bg-primary-50 w-full px-3 focus:outline-none"
             />
-            <MainButton type="primary" text="subscribe" />
+            <MainButton uiType="primary" text="subscribe" />
           </div>
         </div>
       </div>
