@@ -12,7 +12,11 @@ const Navbar = () => {
       <div className="max-w-screen-xl mx-auto py-5 px-4 flex items-center justify-between md:px-8 lg:px-14">
         <div className="flex items-center">
           <Link href="/" className="mr-10">
-            <Image className="w-48 object-contain" src={Logo} alt="logo" />
+            <Image
+              className="w-32 object-contain md:w-48"
+              src={Logo}
+              alt="logo"
+            />
           </Link>
           <ul className="items-center hidden lg:flex">
             {linksArray?.map((item, index) => (
