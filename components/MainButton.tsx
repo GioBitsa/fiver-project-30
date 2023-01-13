@@ -4,7 +4,7 @@ import RightArrowIcon from "../assets/RightArrowIcon.svg";
 
 type MainButtonProps = {
   text: String;
-  uiType: "secondary" | "primary";
+  uiType: "secondary" | "primary" | "different";
   className?: String;
   endIcon?: boolean;
   submit?: boolean;
@@ -27,6 +27,8 @@ const MainButton = ({
           ? "bg-white text-gray-600"
           : uiType === "primary"
           ? "bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo text-white font-bold"
+          : uiType === "different"
+          ? "bg-gradient-to-br from-differentGradientFrom via-differentGradientVia to-differentGradientTo text-white font-bold"
           : ""
       }`}
     >

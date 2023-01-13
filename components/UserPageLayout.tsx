@@ -9,7 +9,7 @@ const UserPageLayout = ({ children }: React.PropsWithChildren) => {
     <>
       <UserNavbar />
       <div className="relative overflow-hidden">
-        <div className="max-w-screen-xl py-4 px-4 md:px-8 lg:px-14 mx-auto min-h-[calc(100vh_-_117px)] relative z-10">
+        <div className="max-w-screen-xl py-4 px-4 md:px-8 lg:px-14 mx-auto min-h-[calc(100vh_-_85px)] relative z-10">
           <p className="text-[11px] font-bold text-gray-300 text-right mb-5">
             Centre hospitalier de Rambouillet
           </p>

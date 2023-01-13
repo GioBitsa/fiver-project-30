@@ -22,6 +22,9 @@ module.exports = {
       gradientFrom: "rgba(125,227,115,1)",
       gradientVia: "rgba(73,208,175,1)",
       gradientTo: "rgba(18,190,236,1)",
+      differentGradientFrom: "#7DE373",
+      differentGradientVia: "#49D0AF",
+      differentGradientTo: "#12BEEC",
       primaryGradient:
         "linear-gradient(175deg, rgba(125,227,115,1) 0%, rgba(73,208,175,1) 50%, rgba(18,190,236,1) 100%)",
       "gray-50": "#F0F0F0",
