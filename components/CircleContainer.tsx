@@ -10,7 +10,7 @@ type CircleContainerProps = {
 const CircleContainer = ({ size, className }: CircleContainerProps) => {
   return (
     <div className={`absolute w-${size} h-${size} ${className}`}>
-      <Image src={CircleIcon} alt="circle" />
+      <Image className="w-full h-full" src={CircleIcon} alt="circle" />
     </div>
   );
 };

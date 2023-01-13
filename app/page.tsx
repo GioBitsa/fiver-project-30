@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import SectionHeader from "../components/SectionHeader";
 import BedManagement from "../assets/BedManagement.png";
 import ThirdSection from "../assets/ThirdSection.png";
+import HeroSection from "../assets/HeroSection.png";
 import FourthSection from "../assets/FourthSection.png";
 import RectangleIcon from "../assets/RectangleIcon.svg";
 import Inventare from "../assets/Inventare.png";
@@ -15,6 +16,56 @@ const page = () => {
   return (
     <>
       <Navbar />
+      {/* hero section */}
+      <div className="relative py-14 overflow-hidden">
+        <div className="px-4 mx-auto max-w-screen-xl flex flex-col min-h-[400px] items-end md:px-8 lg:px-14 2xl:min-h-[700px]">
+          <Image
+            className="relative left-0 top-0 max-w-xs w-full mx-auto lg:absolute lg:-left-32 lg:max-w-lg lg:top-[56px] 2xl:max-w-2xl 2xl:-left-10"
+            src={HeroSection}
+            alt="hero section"
+          />
+          <div className="pt-10 lg:max-w-xl">
+            <h1 className="text-primary text-center font-bold text-5xl mb-5 md:text-7xl lg:text-8xl">
+              HospiCheck
+            </h1>
+            <p className="text-gray-500 text-base font-inter mt-2 text-center lg:text-right">
+              Lorem ipsum dolor sit amet consectetur. Vestibulum ultricies nisi
+              eu lectus arcu hac nec metus. Ut quis rhoncus ornare vitae dolor
+              sit. Eu lobortis pulvinar mauris donec pharetra egestas vitae
+              turpis laoreet. Odio pulvinar ornare eu ornare leo id neque lorem
+              nulla.
+            </p>
+            <p className="text-gray-500 text-base font-inter mt-2 text-center lg:text-right">
+              Lorem ipsum dolor sit amet consectetur. Vestibulum ultricies nisi
+              eu lectus arcu hac nec metus. Ut quis rhoncus ornare vitae dolor
+              sit. Eu lobortis pulvinar mauris donec pharetra egestas vitae
+              turpis laoreet. Odio pulvinar ornare eu ornare leo id neque lorem
+              nulla.
+            </p>
+            <p className="text-gray-500 text-base font-inter mt-2 mb-10 text-center lg:text-right">
+              Lorem ipsum dolor sit amet consectetur. Vestibulum ultricies nisi
+              eu lectus arcu hac nec metus. Ut quis rhoncus ornare vitae dolor
+              sit. Eu lobortis pulvinar mauris donec pharetra egestas vitae
+              turpis laoreet. Odio pulvinar ornare eu ornare leo id neque lorem
+              nulla.
+            </p>
+          </div>
+          <MainButton
+            type="primary"
+            text="learn more about"
+            endIcon
+            className="uppercase ml-auto mr-auto block"
+          />
+        </div>
+        <CircleContainer
+          size="80"
+          className="top-0 -right-20 w-40 h-40 lg:w-80 lg:h-80 lg:-right-40"
+        />
+        <CircleContainer
+          size="0"
+          className="top-full left-1/2 -translate-x-1/2 -translate-y-1/4 w-80 h-80 sm:w-4/5 sm:h-4/5"
+        />
+      </div>
       {/* bed management section */}
       <div className="relative py-14 overflow-hidden">
         <div className="px-4 mx-auto max-w-screen-xl md:px-8 lg:px-14">
