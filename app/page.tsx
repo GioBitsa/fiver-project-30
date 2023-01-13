@@ -25,7 +25,7 @@ const page = () => {
             alt="hero section"
           />
           <div className="pt-10 lg:max-w-xl">
-            <h1 className="text-primary text-center font-bold text-5xl mb-5 md:text-7xl lg:text-8xl">
+            <h1 className="text-primaryColor text-center font-bold text-5xl mb-5 md:text-7xl lg:text-8xl">
               HospiCheck
             </h1>
             <p className="text-gray-500 text-base font-inter mt-2 text-center lg:text-right">
@@ -51,7 +51,7 @@ const page = () => {
             </p>
           </div>
           <MainButton
-            type="primary"
+            uiType="primary"
             text="learn more about"
             endIcon
             className="uppercase ml-auto mr-auto block"
@@ -83,7 +83,7 @@ const page = () => {
           </p>
           <MainButton
             className="mx-auto uppercase block z-10 relative"
-            type="primary"
+            uiType="primary"
             text="learn more about"
             endIcon
           />
@@ -113,7 +113,7 @@ const page = () => {
               nulla.
             </p>
             <MainButton
-              type="primary"
+              uiType="primary"
               text="learn more about"
               endIcon
               className="uppercase ml-auto mr-auto lg:mr-0 block"
@@ -139,7 +139,7 @@ const page = () => {
               nulla. Odio pulvinar ornare eu ornare leo id neque lorem nulla.
             </p>
             <MainButton
-              type="primary"
+              uiType="primary"
               text="learn more about"
               endIcon
               className="uppercase ml-auto mr-auto lg:ml-0 block relative z-10"

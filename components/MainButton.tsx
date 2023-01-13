@@ -4,20 +4,28 @@ import RightArrowIcon from "../assets/RightArrowIcon.svg";
 
 type MainButtonProps = {
   text: String;
-  type: "secondary" | "primary";
+  uiType: "secondary" | "primary";
   className?: String;
   endIcon?: boolean;
+  submit?: boolean;
 };
 
-const MainButton = ({ text, className, type, endIcon }: MainButtonProps) => {
+const MainButton = ({
+  text,
+  className,
+  uiType,
+  endIcon,
+  submit,
+}: MainButtonProps) => {
   return (
     <button
+      type={submit ? "submit" : "button"}
       className={`${className} ${
         endIcon && "flex items-center"
       } py-2 px-6 text-lg transition hover:opacity-80 rounded ${
-        type === "secondary"
+        uiType === "secondary"
           ? "bg-white text-gray-600"
-          : type === "primary"
+          : uiType === "primary"
           ? "bg-gradient-to-r from-gradientFrom via-gradientVia to-gradientTo text-white font-bold"
           : ""
       }`}

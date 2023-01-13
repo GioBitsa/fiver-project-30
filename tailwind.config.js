@@ -13,7 +13,7 @@ module.exports = {
       inter: ["Inter", "sans-serif"],
     },
     colors: {
-      primary: "#49D0AF",
+      primaryColor: "#49D0AF",
       "primary-1": "#55D5A2",
       "primary-2": "#65DB91",
       orange: "#FBA508",
@@ -45,6 +45,7 @@ module.exports = {
       "primary-800": "#193724",
       "primary-900": "#0A160F",
       white: "#FFFFFF",
+      black: "#000000",
     },
   },
   plugins: [],
