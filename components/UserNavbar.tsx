@@ -8,8 +8,8 @@ import NavbarProfile from "./NavbarProfile";
 
 const UserNavbar = () => {
   return (
-    <div className="bg-white shadow-primary">
-      <div className="max-w-screen-xl mx-auto py-5 px-4 flex items-center justify-between md:px-8 lg:px-14">
+    <div className="bg-white shadow-primary min-h-[85px] flex items-center overflow-hidden">
+      <div className="max-w-screen-xl w-full mx-auto py-5 px-4 flex items-center justify-between md:px-8 lg:px-14">
         <Link href="/user/services" className="mr-10">
           <Image
             className="w-32 object-contain md:w-48"
