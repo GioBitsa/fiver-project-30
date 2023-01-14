@@ -95,7 +95,7 @@ const page = () => {
                     </button>
                   </td>
                   <td>
-                    <button className="bg-[#FCECEC] text-sm font-bold font-popins text-[#BF2323] py-1 px-4 transition opacity-60 hover:opacity-80 flex mx-auto">
+                    <button className="bg-[#FCECEC] text-sm font-bold font-popins text-[#BF2323] py-1 px-4 transition opacity-60 hover:opacity-80 flex mx-auto border-[1px] rounded-2xl border-[#BF2323]">
                       Reinitialiser
                     </button>
                   </td>
