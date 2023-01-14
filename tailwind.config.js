@@ -51,6 +51,7 @@ module.exports = {
       "primary-900": "#0A160F",
       white: "#FFFFFF",
       black: "#000000",
+      red: "#FF0000",
     },
   },
   plugins: [],
