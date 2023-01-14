@@ -6,11 +6,13 @@ module.exports = {
       boxShadow: {
         primary: "0 9px 29px 0 rgba(0, 0, 0, 0.12)",
         secondary: "0 4px 31px 0 rgba(0, 0, 0, 0.1)",
+        different: "0 6px 32px 0 rgba(0, 0, 0, 0.06)",
       },
     },
     fontFamily: {
       monserat: ["Montserrat", "sans-serif"],
       inter: ["Inter", "sans-serif"],
+      popins: ["Poppins", "sans-serif"],
     },
     colors: {
       primaryColor: "#49D0AF",
